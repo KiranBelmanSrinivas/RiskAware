@@ -3,8 +3,8 @@ $(document).ready(function() {
     
     AWS.config.update({
         region: 'us-east-1', // e.g., 'us-east-1'
-        accessKeyId: '',
-        secretAccessKey: ''
+        accessKeyId: '', //removed the ID for security purpose
+        secretAccessKey: '' //removed the access key for security purpose
     });
 
     const dynamodb = new AWS.DynamoDB();
