@@ -3,8 +3,8 @@ $(document).ready(function() {
     
     AWS.config.update({
         region: 'us-east-1', // e.g., 'us-east-1'
-        accessKeyId: 'AKIA5HURSVIUQFRAJONP',
-        secretAccessKey: 'JLfYWqAif+MNEMl2IebnIYtFS0PjuRsYunsVRn44'
+        accessKeyId: '',
+        secretAccessKey: ''
     });
 
     const dynamodb = new AWS.DynamoDB();
